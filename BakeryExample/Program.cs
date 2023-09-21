@@ -41,7 +41,8 @@
             //הריצו שורה זו עם עקרון ההכמסה
             //אבל פעם SHALLOW COPY
             //ופעם נוספת עם DEEP COPY
-            b1Toppings[1].SetName("Kaki");
+            //ראו פעולה מאחזרת של תכונת התוספות
+            b1Toppings[1].SetName("THIS IS A NEW NAME");
             Console.WriteLine("------b1 Bagel-----");
             Console.WriteLine(b1);
             #endregion

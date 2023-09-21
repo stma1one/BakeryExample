@@ -87,12 +87,12 @@ namespace BakeryExample
             {
                 #region shallow copy
                 //המקום החדש יצביע לאובייקט תוספת *קיים*בתוספות
-                //copy[i]=toppings[i];
+              //  copy[i]=toppings[i];
                 #endregion
                 #region Deep Copy
                 //המקום החדש יצביע לאובייקט תוספת חדש המכיל את אותם ערכים
                 //של תוספת קיימת -שכפול
-                copy[i]=new Topping(toppings[i]);
+                copy[i] = new Topping(toppings[i]);
                 #endregion
             }
             #endregion
